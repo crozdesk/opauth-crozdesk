@@ -1,0 +1,23 @@
+{
+	"name": "crozdesk/opauth-crozdesk",
+	"description": "Crozdesk strategy for Opauth",
+	"keywords": ["authentication","auth","crozdesk"],
+	"homepage": "https://crozdesk.com",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Alexandru Stoian",
+			"email": "alex@crozdesk.com",
+			"homepage": "https://crozdesk.com"
+		}
+	],
+	"require": {
+		"php": ">=5.2.0",
+		"opauth/opauth": ">=0.2.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "."
+		}
+	}
+}
